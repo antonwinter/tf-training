@@ -49,7 +49,7 @@ variable "aws_region" {
 }
 
 variable "webserver_count" {
-  default = "3"
+  default = "4"
 }
 
 output "public_ip" {
