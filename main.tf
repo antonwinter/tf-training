@@ -64,3 +64,4 @@ terraform {
     name = "antonwinter/training"
   }
 }
+
