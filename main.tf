@@ -37,6 +37,7 @@ resource "aws_instance" "web" {
     "Waffles"            = "awesome"
     "Bacon"              = "OHYEAH"
     "DoYouReadTheseTags" = "fantastic"
+    "potato"             = "BAM"
     "Name"               = "web ${count.index+1}/${var.webserver_count}"
   }
 }
