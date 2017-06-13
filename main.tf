@@ -60,11 +60,6 @@ output "public_dns" {
   value = ["${aws_instance.web.*.public_dns}"]
 }
 
-#module "example" {
-#  source  = "./example-module"
-#  command = "echo 'Goodbye...'"
-#}
-
 terraform {
   backend "atlas" {
     name = "antonwinter/training"
